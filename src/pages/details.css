@@ -1,0 +1,126 @@
+.details-cont {
+    display: flex;
+
+}
+
+.left-cont {
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    position: fixed;
+    border: 1px black;
+    border-right-style: solid;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: rgba(226, 6, 43, 0.288);
+}
+
+.movie-d-cont {
+    position: relative;
+    left: 270px;
+}
+
+.movie-img {
+    margin-top: 25px;
+    height: 500px;
+    width: 1060px;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(40%);
+    position: relative;
+}
+
+.top-ting{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    gap: 30px;
+    align-items: center;
+}
+
+.top-ting span {
+    font-size: 25px;
+}
+
+.details-links {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 10px;
+    align-items: baseline;
+    justify-self: center;
+}
+
+.d-link {
+    text-decoration: none;
+    border: 1px black;
+    border-bottom-style: solid;
+    width: max-content;
+    color: black;
+    font-size: 25px;
+} 
+
+.m-img span {
+    font-size: 70px;
+    color: rgb(197, 10, 41);
+    position: absolute;
+    left: 490px;
+    top: 230px;
+}
+
+.mov-cont{
+    display: flex;
+    gap: 10px;
+}
+
+.dtls{
+    width: 890px;
+}
+
+.mov1-cont {
+    padding-top: 25px;
+}
+
+.rating-m {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.rating-m span {
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding-inline: 5px;
+    padding-block: 5px;
+    background-color: rgba(202, 8, 40, 0.795);
+    width: max-content;
+}
+.rating-m button {
+     background-color: rgba(209, 9, 42, 0.74);
+     border-radius: 15px;
+     padding-block: 10px;
+     border: none;
+     padding-inline: 20px;
+}
+
+.overview-m{
+    font-weight: 800px;
+    font-size: 20px;
+}
+
+.d-link-select {
+    text-decoration: none;
+    border: 1px black;
+    border-bottom-style: solid;
+    width: 200px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(247, 0, 41);
+    font-size: 25px;
+}
+
+.icon {
+    color: gray;
+}

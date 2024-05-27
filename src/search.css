@@ -1,0 +1,17 @@
+.search-cont {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 7px;
+}
+
+
+.search-ting {
+    display: flex;
+    overflow-x: hidden;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+height: max-content;
+width: 100%;
+background-color: white;
+}
