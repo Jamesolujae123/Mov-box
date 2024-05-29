@@ -38,7 +38,7 @@
     background: transparent;
   }
   .search::placeholder {
-    color: black;
+    color: white;
   }
   
   .signin {
@@ -83,6 +83,7 @@
 
   .hero-img {
     height: 640px;
+    filter: brightness(45%);
   }
 
 .moviecard {
@@ -171,7 +172,7 @@ flex-direction: column;
   }
 
   .search {
-    color: black;
+    color: red;
   }
 
   .search:active {
