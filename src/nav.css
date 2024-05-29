@@ -3,6 +3,7 @@
     justify-content: space-around;
     position: fixed;
     padding-block: 10px;
+    top: 0;
     background-color: rgba(0, 0, 0, 0.849);
     
 }
