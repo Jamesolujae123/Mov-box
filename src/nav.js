@@ -11,7 +11,6 @@ import axios from 'axios';
 import Footer from './footer';
 import Hero from './Hero';
 import FeaturedMovie from './featuredMovie';
-import Hero from './Hero';
 import People from './people';
 import Arrival from './nwarrival';
 
