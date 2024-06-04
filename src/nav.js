@@ -90,12 +90,12 @@ const  hSubmit = async (e) => {
       </nav>
 
 
-          {showResults ? ( <Search results={results} searchQuery={searchQuery} />) : <><Hero />
+          {showResults ? ( <Search results={results} searchQuery={searchQuery} />) : ( <><Hero />
                 <FeaturedMovie url={"https://api.themoviedb.org/3/movie/top_rated"} heading={"Featured Movies"} />
                 <FeaturedMovie url={"https://api.themoviedb.org/3/movie/upcoming"} heading={" New Arrival"} />
                 <Arrival  url={"https://api.themoviedb.org/3/movie/now_playing"} heading={"Exclusive Videos"} />
                 <People url={"https://api.themoviedb.org/3/person/popular"} heading={"Featured Cast"} /> 
-              </> }
+              </>) }
           
     </>
        
