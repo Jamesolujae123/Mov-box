@@ -18,7 +18,7 @@ const headers = {
   const HeroMovie = async () => {
     try {
         const response = await axios.get (
-            "https://api.themoviedb.org/3/movie/848538", {headers}
+            "https://api.themoviedb.org/3/movie/249660", {headers}
         );
         console.log(response.data);
         setHeroMovie(response.data);
